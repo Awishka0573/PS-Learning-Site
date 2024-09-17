@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Rancho-Regular;
+    src: url(Fonts/Rancho-Regular.ttf);
+}
+.logop{
+    width: 70px;
+    height: 70px;
+    background-image: url(photo/png-transparent-photoshop-2020-logo-icon.png);
+    box-shadow: black 0px 5px 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.navbar{
+    position: absolute;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 80px; 
+    z-index: 1;
+}
+
+.navbar .logo{
+    
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color:transparent;
+    font-family:Rancho-Regular;
+    font-size: 45px;
+    margin-right: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .menu ul{
+    display: flex;
+    
+}
+
+.navbar .menu ul li{
+    margin: 0px 35px;
+    list-style: none;
+}
+.navbar .menu ul .dropdown {
+    position: absolute;
+    display:none;
+    background-color: rgb(87, 87, 87);
+    border-radius: 10px;
+      
+}
+.navbar .menu ul :hover .dropdown{
+    display: block;
+}
+
+.navbar .menu ul .dropdown li{
+    line-height: 1.7;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+.navbar .menu ul .dropdown li a{
+    font-size: 18px;
+
+}
+.navbar .menu ul .dropdown li a:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+
+.bgimg2{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo/morning-7680x4320-13637.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:  5px ;
+    position: relative;
+    
+}
+
+.navbar .menu ul li :hover{
+    color: crimson;  
+}
+
+.title{
+    font-family: Rancho-Regular;
+    font-size: 40px;
+    max-height: 5px;
+    color: aliceblue;
+    margin-top: 80px;
+    margin-left: 40%;
+}
+
+.site-content{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    margin-top: -60px;
+    margin-right: 10px;
+    padding: 20px 20px 20px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, .2);
+    opacity:90%;
+    box-shadow: black 0px 5px 15px;
+    border-radius: 20px;
+    box-shadow: 50%;
+}
+
+.site-content h1{
+    font-size: 50px;  
+    font-family:Rancho-Regular;
+    margin-top: -10px;
+}
+
+.site-content .p1{
+    font-size: 20px;   
+    bottom: 100%; 
+    margin-left: -255px;
+    margin-top: -10px;
+    
+}
+.site-content .p2{
+    font-size: 20px;   
+    bottom: 100%; 
+    margin-left: -10px;
+    margin-top: 30px;
+}
+.site-content .p3{
+    font-size: 20px;   
+    bottom: 100%; 
+    margin-left: -165px;
+    margin-top: 30px;
+    
+}
+
+.site-content2{
+    position: relative;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px;
+    position: relative;
+    max-width: 420px;
+    height: 460px;
+    background: rgba(255, 255, 255, .2);
+    opacity:90%;
+    box-shadow: black 0px 5px 15px;
+    border-radius: 20px;
+    box-shadow: 50%;
+    margin-top: 350px;
+}
+body {font-family: Arial, Helvetica, sans-serif; }
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: -4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(75, 75, 75);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: black;
+}
+
+
+.Footer{
+    background-color: rgb(255, 255, 255) ;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: -80px;  
+}
+
+.Footer .FC{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 260px;  
+}
+
+.Footer .F{
+    background-color:transparent;
+    width: 270px;
+    height: 10vh;
+    display: flex;
+    mix-blend-mode: multiply;
+    margin-left: 75%;
+}
+
+.fimg{
+    top: 15px;
+    position: relative;
+    float: right;
+    margin-right: 270px;
+    mix-blend-mode: multiply;
+}

@@ -1,0 +1,260 @@
+@font-face {
+    font-family: Rancho-Regular;
+    src: url(Fonts/Rancho-Regular.ttf);
+}
+
+button{
+    cursor: pointer;
+}
+.logop{
+    width: 70px;
+    height: 70px;
+    background-image: url(photo/png-transparent-photoshop-2020-logo-icon.png);
+    box-shadow: black 0px 5px 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.navbar{
+    position: absolute;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 80px; 
+}
+
+.navbar .logo{
+    
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color:transparent;
+    font-family:Rancho-Regular;
+    font-size: 45px;
+    margin-right: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .menu ul{
+    display: flex;
+    
+}
+
+.navbar .menu ul li{
+    margin: 0px 35px;
+    list-style: none;
+}
+.navbar .menu ul .dropdown {
+    position: absolute;
+    display:none;
+    background-color: rgb(87, 87, 87);
+    border-radius: 10px;
+      
+}
+.navbar .menu ul :hover .dropdown{
+    display: block;
+}
+
+.navbar .menu ul .dropdown li{
+    line-height: 1.7;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+.navbar .menu ul .dropdown li a{
+    font-size: 18px;
+
+}
+.navbar .menu ul .dropdown li a:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+.bgimg{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo/brooklyn-bridge-7680x4320-1703.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:  5px ;
+    position: relative;
+}
+
+.navbar .menu ul li :hover{
+    color: rgb(218, 255, 11)
+}
+
+.site-content{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 10px;
+    padding: 20px 20px 20px;
+    position: relative;
+    max-width: 400px;
+    height: 200px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .2);
+    opacity:90%;
+    box-shadow: black 0px 5px 15px;
+    border-radius: 20px;
+    box-shadow: 50%;
+}
+
+.site-content h1{
+    font-size: 50px;  
+    font-family:Rancho-Regular;
+    margin-top: 50px;
+}
+
+.site-content p{
+    font-size: 15px;   
+    bottom: 100%; 
+    font-family: cursive;
+}
+
+.about-site{
+    background-color: crimson;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: -18px;
+
+}
+
+.topic{
+    color: crimson;
+    font-weight: bold;
+    font-family:Rancho-Regular ;
+    padding-left: 550px;
+    padding-top: 10px;
+    text-decoration: solid;
+    font-size: 30px;
+}
+
+.para{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-family: cursive;
+ 
+}
+.line1{
+    max-height: 0.5px;
+    background-color: black;
+    width: 90%;
+    margin-left: 75px
+}
+.download{
+    background-color: crimson;
+    height: 50vh;
+    
+}
+.download h4{
+    color: white;
+    font-size: 55px;
+    font-family:Rancho-Regular ;
+    margin-left: 120px;
+    padding-top: 70px;
+}
+.downloadlink{
+    font-size:60px;
+    float: right;
+    margin-right: 250px;
+    margin-top: -140px;
+    border-radius: 5px;
+    font-family: Rancho-Regular;
+    font-weight: bold;
+}
+.downloadlink:hover{
+    background-color: rgb(0, 255, 98);
+    font-size: 65px;
+}
+.download .cw{
+    padding-left: 300px;
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.Footer{
+    background-color: rgb(255, 255, 255) ;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: -80px;  
+}
+.Footer .line{
+    max-height: 0.5px;
+    background-color: black;
+    width: 90%;
+    margin-left: 75px;
+}
+
+.Footer .FC{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 260px;  
+}
+
+.Footer .F{
+    background-color:transparent;
+    width: 270px;
+    height: 10vh;
+    display: flex;
+    mix-blend-mode: multiply;
+    margin-left: 75%;
+}
+
+.fimg{
+    top: 15px;
+    position: relative;
+    float: right;
+    margin-right: 270px;
+    mix-blend-mode: multiply;
+}
+.js1{
+    float: right;
+    font-size: 40px;
+    color: white;
+    margin-right: 180px;
+    margin-top: -150px;
+    
+
+}
+.js1 #textinput{
+    font-size: 20px;
+    box-shadow: black 0px 5px 5px;
+    border: solid white;
+    border-radius: 5px;
+
+}
+.js1 #textchange{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    box-shadow: black 0px 5px 5px;
+    
+}
+.js1 #textchange:hover{
+    background-color: rgb(38, 247, 167);
+}
+.js1 #textp{
+    margin-left: 30px;
+}

@@ -1,0 +1,497 @@
+@font-face {
+    font-family: Rancho-Regular;
+    src: url(Fonts/Rancho-Regular.ttf);
+}
+.logop{
+    width: 70px;
+    height: 70px;
+    background-image: url(photo/png-transparent-photoshop-2020-logo-icon.png);
+    box-shadow: black 0px 5px 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.navbar{
+    position: absolute;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 80px; 
+    z-index: 1;
+}
+
+.navbar .logo{
+    
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color:transparent;
+    font-family:Rancho-Regular;
+    font-size: 45px;
+    margin-right: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .menu ul{
+    display: flex;
+    
+}
+
+.navbar .menu ul li{
+    margin: 0px 35px;
+    list-style: none;
+ 
+}
+.navbar .menu ul .dropdown {
+    position: absolute;
+    display:none;
+    background-color: rgb(87, 87, 87);
+    border-radius: 10px;
+      
+}
+.navbar .menu ul :hover .dropdown{
+    display: block;
+}
+
+.navbar .menu ul .dropdown li{
+    line-height: 1.7;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+.navbar .menu ul .dropdown li a{
+    font-size: 18px;
+
+}
+.navbar .menu ul .dropdown li a:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+
+
+.bgimg2{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo/scenery-7680x4320-144.png);
+    background-size: cover;
+    background-position: center;
+    padding:  5px ;
+    position: relative;
+   
+}
+
+.navbar .menu ul li :hover{
+    color: crimson;   
+}
+
+.site-content{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 10px;
+    padding: 20px 20px 20px;
+    position: relative;
+    height: 20px;
+    width: 70%;
+    background: rgba(255, 255, 255, .2);
+    opacity:90%;
+    box-shadow: black 0px 5px 15px;
+    border-radius: 20px;
+    box-shadow: 50%;
+}
+.site-content h1{
+    font-size: 50px;  
+    font-family:Rancho-Regular;
+    margin-top: -20px;
+}
+.site-content h2{
+    font-size: 70px;  
+    font-family:Rancho-Regular;
+    margin-top: 80px;
+}
+
+.C1{
+    margin-top: 5px;
+    padding-left: 5px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(240, 73, 106);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+    
+}
+.C1 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.C2{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(233, 231, 101);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C2 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.C3{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(112, 228, 137);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C3 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.C4{
+    margin-top: 10px;
+    padding-left: 5px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(86, 53, 204);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C4 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.C5{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(93, 245, 93);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C5 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.C6{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(250, 53, 53);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    position: relative;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C6 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.C7{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(233, 93, 93);
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C7 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.C8{
+    margin-top: 10px;
+    padding-left: 5px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(192, 98, 247);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C8 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.C9{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(247, 244, 85);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C9 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.C10{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(248, 75, 147);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C10 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.C11{
+    margin-top: 10px;
+    padding-left: 5px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(117, 117, 117);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C11 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.C12{
+    margin-top: 10px;
+    width:33%;  
+    display:inline-block;
+    background-color: rgb(146, 6, 6);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 25vh;
+    padding-top: 40px;
+    position: relative;
+    font-size: 20px;
+    font-family: Rancho-Regular;
+    cursor:pointer ;
+}
+.C12 h2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.C1:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: crimson;
+}
+.C2:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(217, 255, 0);
+}
+.C3:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(8, 107, 66);
+}
+.C4:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color:rgb(47, 0, 255);
+}
+
+.C5:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(96, 5, 138);
+}
+.C6:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(255, 0, 0);
+}
+
+.C7:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(128, 14, 14);
+}
+.C8:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(74, 2, 88);
+}
+.C9:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(200, 255, 0);
+}
+.C10:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(255, 0, 221);
+}
+.C11:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(44, 44, 44);
+}
+
+.C12:hover{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(82, 1, 1);
+}
+.back{
+    font-size: 25px;
+    margin-right: 200px;
+    float: right;
+    font-family:cursive;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 300px;
+  }
+
+
+.Footer .line{
+    max-height: 0.5px;
+    background-color: black;
+    width: 90%;
+    margin-left: 75px;
+}
+
+.Footer{
+    background-color: rgb(255, 255, 255) ;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: -80px;  
+}
+
+.Footer .FC{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 260px;  
+}
+
+.Footer .F{
+    background-color:transparent;
+    width: 270px;
+    height: 10vh;
+    display: flex;
+    mix-blend-mode: multiply;
+    margin-left: 75%;
+}
+
+.fimg{
+    top: 15px;
+    position: relative;
+    float: right;
+    margin-right: 270px;
+    mix-blend-mode: multiply;
+}
